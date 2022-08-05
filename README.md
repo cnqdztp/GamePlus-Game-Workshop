@@ -1,4 +1,4 @@
-# gameplus
+# vue
 
 ## Project setup
 ```
