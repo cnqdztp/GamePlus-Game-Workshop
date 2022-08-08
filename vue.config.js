@@ -19,7 +19,7 @@ module.exports={
     config
         .plugin('html')
         .tap(args => {
-          args[0].title = 'Gameplus创作坊设计'
+          args[0].title = 'GemuPurasu | 缓释胶囊'
           return args;
         })
   }
