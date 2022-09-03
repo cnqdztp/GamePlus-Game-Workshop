@@ -30,6 +30,7 @@ export default {
       return this.publicPath + this.gameName + '/index.html';
     }
   },created() {
+    this.$parent.
     this.assignTitle();
   }
 

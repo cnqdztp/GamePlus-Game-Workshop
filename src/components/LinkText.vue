@@ -32,12 +32,14 @@ a{
   border-bottom: solid 2px transparent;
   text-decoration: none;
 }
-a.router-link-active{
-  border-bottom: solid 2px #5B5B5B;
-  transition: 0.3s;
-}
+
 a:hover{
   border-bottom: solid 2px rgba(91, 91, 91, 0.6);
+  transition: 0.3s;
+}
+
+a.router-link-active{
+  border-bottom: solid 2px #5B5B5B !important;
   transition: 0.3s;
 }
 /*a{*/

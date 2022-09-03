@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header-navigation></header-navigation>
+<!--    <header-navigation></header-navigation>-->
     <div class="home">
 
       <div>
@@ -16,12 +16,12 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
-import HeaderNavigation from "@/components/HeaderNavigation";
+// import HeaderNavigation from "@/components/HeaderNavigation";
 
 export default {
   name: 'HomeView',
   components: {
-    HeaderNavigation,
+    // HeaderNavigation,
     HelloWorld
   }
 }

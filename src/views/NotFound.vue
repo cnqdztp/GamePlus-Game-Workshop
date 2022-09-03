@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header-navigation></header-navigation>
+<!--    <header-navigation></header-navigation>-->
     <div id="not-found-container">
       Not Found
     </div>
@@ -9,10 +9,10 @@
 </template>
 
 <script>
-import HeaderNavigation from "@/components/HeaderNavigation";
+// import HeaderNavigation from "@/components/HeaderNavigation";
 export default {
   name: "NotFound",
-  components: {HeaderNavigation}
+  // components: {HeaderNavigation}
 }
 </script>
 

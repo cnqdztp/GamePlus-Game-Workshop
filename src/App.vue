@@ -1,4 +1,5 @@
 <template>
+  <header-navigation ref="navbar"></header-navigation>
   <router-view/>
 </template>
 
@@ -16,6 +17,15 @@ body{
 
 </style>
 <script>
+import headerNavigation from "@/components/HeaderNavigation";
 export default {
+  components:{
+    headerNavigation
+  },
+  methods:{
+    HideNavbar(){
+      this.$refs.navbar
+    }
+  }
 }
 </script>

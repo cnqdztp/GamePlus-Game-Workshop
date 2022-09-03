@@ -24,6 +24,18 @@ const routes = [
     component: ()=> import('../views/PlayGames'),
     props: true,
   },
+  {
+    path: '/video',
+    name: 'videoList',
+    component: ()=> import('../views/VideoList'),
+    props: true,
+  },
+  {
+    path: '/video/:videoName',
+    name: 'videoDetail',
+    component: ()=> import('../views/VideoDetail'),
+    props: true,
+  },
   { path: '/:pathMatch(.*)*',
     name: 'NotFound',
     component: notFound
